@@ -1,0 +1,231 @@
+@charset "utf-8";
+/* reset */
+html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,a,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	background: transparent;
+	vertical-align: top;
+	font-size: 100%;
+}
+
+html {
+	font-size: 16px;
+}
+
+body {
+	font-family: Arial, sans-serif;
+	line-height: 1.5;
+}
+
+ul {
+	list-style: none;
+	margin: 0;
+  	padding: 0;
+}
+
+/* clearfix */
+.clearfix:before,
+.clearfix:after{
+	display:table;
+	content:"";
+}
+
+.clearfix:after{
+	clear:both;
+}
+
+.clearfix{
+	zoom:1;
+}
+/*start banner & nav*/
+.banner{
+	background-image: url(../images/bg-main.jpg);
+	background-position: center top;
+	background-repeat: no-repeat;
+	background-size: cover;
+	min-height: 750px;
+}
+#header{
+	width: 100%;
+}
+#header .main-header{
+	max-width: 1170px;
+	margin:0 auto;
+	border-bottom: 1px solid #ffffff;
+	width: 100%;
+	padding:40px 0;
+}
+#header .logo{
+	float: left;
+}
+#header .navbar{
+	float:right;
+}
+#header .navbar li{
+	display: inline-block;
+}
+#header .navbar a{
+	color: #ffffff;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 13px;
+	font-weight: bold;
+	margin-left: 35px;
+}
+.main-banner{
+	width: 970px;
+	margin: 0 auto;
+	display: flex;
+}
+.txt-banner{
+	color: #ffffff;
+	text-align: center;
+}
+.txt-banner h1{
+	font-size: 60px;
+	padding-top: 15%;
+	text-transform: uppercase;
+	line-height: 1;
+	margin-bottom: 15px;
+}
+.txt-banner p{
+	color: #ffffff;
+	padding: 0 5% 0 5%;
+	line-height: 1.5;
+	font-size: 20px;
+	margin-bottom: 90px;
+}
+.btn{
+	background-color: #e84545;
+	color: #ffffff;
+	font-size: 12px;
+	text-transform: uppercase;
+	padding: 15px 45px;
+	font-weight: bold;
+	text-decoration: none;
+	border-radius: 2px;
+}
+/*end banner & nav*/
+
+/*start features*/
+.features{
+	background-color: #ffffff;
+}
+.features-box{
+	width: 970px;
+	margin:0 auto;
+	padding: 100px 0 50px 0;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.features-content{
+	width: 30%;
+	margin-bottom: 70px;
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+}
+.features-content img{
+	height: 60px;
+	margin-bottom: 30px;
+}
+.features-content p.features-title{
+	color: #2d3033;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: 14px;
+	margin-bottom: 10px;
+}
+.features-content p.features-text{
+	color: #6c7279;
+	font-size: 14px;
+	line-height: 22px;
+	text-align: center;
+}
+/*end features*/
+
+/*start works*/
+.works .works-box{
+	display: flex;
+	flex-wrap: wrap;
+}
+.works .works-image{
+	position: relative;
+	width: 25%;
+	height: 330px;
+}
+.works .works-image img{
+	object-fit: cover;
+	width: 100%;
+	height: 100%;
+}
+.works .works-text{
+	background-color: #e84545;
+	color: #ffffff;
+	top: 0;
+	position: absolute;
+	opacity: 0;
+	font-size: 20px;
+	font-weight: bold;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.works .works-image:hover .works-text{
+	opacity: 0.8;
+}
+/*end works*/
+
+.teams{
+	background-color: #ffffff;
+}
+.teams-area{
+	max-width: 970px;
+	margin: 0 auto;
+}
+.teams-box{
+	display: flex;
+	padding: 100px 0 100px 0;
+}
+.teams-content{
+	width: 25%;
+	padding: 0 15px 0 15px;
+}
+.teams-content img.teams-image{
+	width: 100%;
+	margin-bottom: 10px;
+}
+.teams-content h4{
+	color: #57595c;
+	font-size: 22px;
+}
+.teams-content h5{
+	color: #e84545;
+	font-size: 13px;
+	margin-bottom: 20px;
+}
+.teams-content p{
+	color: #80858b;
+	font-size: 14px;
+	margin-bottom: 30px;
+}
+.teams-content ul.teams-account li{
+	margin-right: 5px;
+	float: left;
+	display: inline;
+	list-style-type: none;
+}
+.teams-account a{
+	width: 40px;
+	height: 40px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: solid 1px #c6cacc;
+}
