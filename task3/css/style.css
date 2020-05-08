@@ -181,7 +181,7 @@ ul {
 	opacity: 0.8;
 }
 /*end works*/
-
+/*start teams*/
 .teams{
 	background-color: #ffffff;
 }
@@ -229,3 +229,4 @@ ul {
 	align-items: center;
 	border: solid 1px #c6cacc;
 }
+/*end teams*/
