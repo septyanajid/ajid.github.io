@@ -230,3 +230,133 @@ ul {
 	border: solid 1px #c6cacc;
 }
 /*end teams*/
+/*start testimonials*/
+.testimonials{
+	background-color: #53354a;
+	display: flex;
+}
+.testimonials-image, .testimonials-txtarea{
+	width: 50%;
+}
+.testimonials-image img{
+	width: 100%;
+	height: 100%;
+}
+.testimonials-txtarea{
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+.testimonials-box{
+	color: #ffffff;
+	margin-left: 85px;
+	width: 500px;
+}
+.testimonials-text{
+	font-size: 30px;
+	font-style: italic;
+	margin-bottom: 20px;
+}
+.testimonials-name{
+	font-size: 15px;
+	text-transform: uppercase;
+}
+/*end testimonials*/
+/*start download*/
+.download{
+	background-color: #ffffff;
+}
+.download-area{
+	padding-top: 80px;
+	padding-bottom: 80px;
+}
+.download-box{
+	display: flex;
+	flex-direction: column;
+	margin: 0 auto;
+	align-items: center;
+	border-radius: 2px;
+}
+.download-box p.download-title{
+	margin-bottom: 20px;
+	font-size: 28px;
+	text-transform: uppercase;
+}
+.download-box p.download-desc{
+	margin-bottom: 40px;
+	font-size: 16px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+/*end download*/
+/*start footer*/
+.footer{
+	background-color: #3a3e64;
+}
+.footer-area{
+	padding-top: 70px;
+	padding-bottom: 87px;
+	display: flex;
+	justify-content: space-between;
+}
+.footer-area div{
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+.footer-area div .footer-title{
+	text-transform: uppercase;
+	color: #ffffff;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+.footer-area div .footer-desc{
+	font-size: 18px;
+	text-align: center;
+	color: #9d9fb2;
+}
+.footer-location{
+	width: 33%;
+	padding-left: 40px;
+}
+.footer-share{
+	padding-right: 30px;
+	width: 33%;
+}
+.footer-about{
+	padding-right: 80px;
+	width: 34%;
+}
+.footer-share ul.share li{
+	margin-right: 10px;
+	float: left;
+	display: inline;
+	list-style-type: none;
+}
+.footer-share ul.share li a{
+	width: 40px;
+	height: 40px;
+	align-items: center;
+	border: solid 2px #ffffff;
+	display: flex;
+	justify-content: center;
+}
+/*end footer*/
+/*start copyright*/
+.copyright{
+	background-color: #313454;
+}
+.copyright-area{
+	padding-top: 15px;
+	padding-bottom: 15px;
+	display: flex;
+	justify-content: center;
+}
+.copyright-area p{
+	text-align: center;
+	font-size: 16px;
+	color: #808080;
+}
+.copyright-area span{
+	color: #ffffff;
+}
+/*end copyright*/
